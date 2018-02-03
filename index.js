@@ -63,6 +63,10 @@ app.get('/webhook', (req, res) => {
   }
 });
 
+"scripts": {
+    "start": "node index.js"
+}
+
 
 // curl -X GET "https://reachout-hmh.herokuapp.com/webhook?hub.verify_token="AtrDWaWqSxOUlWEocBoTdFnY"&hub.challenge=CHALLENGE_ACCEPTED&hub.mode=subscribe"
 
